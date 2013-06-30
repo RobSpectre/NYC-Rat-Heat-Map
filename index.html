@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Heat Map of Rat Sightings in NYC - 2010 to present</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="A Javascript heatmap of rat sightings in
+        New York City powered by Heatmap.js, Google Maps and NYC Open Data." />
+    <meta name="keywords" content="heatmap, nyc, rat sightings, rodent
+        sightings, vermin sightings" />
+    <meta name="author" content="Rob Spectre" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta property="og:title" content="NYC Rat Sighting Heat Map" /> 
+    <meta property="og:description" content="A heat map of rat sightings so far in 2013 in New York City." /> 
+    <meta property="og:image" content="http://ratmap.brooklynhacker.com/images/screenshot.png" />
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Advent+Pro'
+        rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+    </script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization">
+    </script>
+    <script type="text/javascript" src="js/map.js"></script>
+</head>
+<body>
+    <div id="map-canvas"></div>
+    <div id="loading">
+        <div id="loader"></div>
+    </div>
+    <div id="bug">
+        <p>A quick hack by <a href="http://www.brooklynhacker.com">Rob
+            Spectre</a>.</p>
+        <p>Inspired by the mighty coders of <a
+            href="http://youngrewiredstate.org/">Young Rewired State</a>.</p>
+    </div>
+    <a href="https://github.com/you"><img style="position: absolute; top: 0;
+        right: 0; border: 0;"
+        src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"
+        alt="Fork me on GitHub"></a>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new
+            Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-1608534-13', 'brooklynhacker.com');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>
