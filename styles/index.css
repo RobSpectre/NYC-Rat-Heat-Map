@@ -27,33 +27,44 @@ body, html, #map-canvas {
     margin: 200px auto;
 }
 
-#bug {
+#bug, #title {
     position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    z-index: 5;
+    background-color: #0d0d0d;
+    color: #fdfdfd;
+}
+
+#title {
+    padding: 0 10px 0 10px;
+    font-weight: 700;
+    margin-bottom: -20px;
+    top: 0;
+    left: 0;
+}
+
+#title h1 {
+    margin-top: 10px;
+    border-top: 5px solid #fdfdfd;
+}
+
+#bug {
+    font-weight: 400;
     bottom: 0;
     right: 0;
-    z-index: 10;
-    background-color: gray;
-    color: black;
     padding: 3px 10px 3px 10px;
-    background-image: -ms-linear-gradient(bottom, #000000 0%, #777777 100%);
-    background-image: -moz-linear-gradient(bottom, #000000 0%, #777777 100%);
-    background-image: -o-linear-gradient(bottom, #000000 0%, #777777 100%);
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000000), color-stop(1, #777777));
-    background-image: -webkit-linear-gradient(bottom, #000000 0%, #777777 100%);
-    background-image: linear-gradient(to top, #000000 0%, #777777 100%);
 }
 
 #bug p {
-   font-family: 'Advent Pro', sans-serif;
    font-size: 14px;
    display: inline;
 }
 
 #bug a {
-    color: white;
+    color: #fdfdfd;
     text-decoration: none;
 }
 
 #bug a:hover {
-    color: red;
+    color: gray;
 }
