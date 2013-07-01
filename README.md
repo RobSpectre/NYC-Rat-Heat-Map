@@ -13,7 +13,7 @@ year-to-date 2013.
 * Dynamic! This map updates daily.
 * Static! All code is client side.
 * Current! Totally made *today*.
-* Inspired! I was inspired to kick out this hack working the unbelievable minds
+* Inspired! I was inspired to kick out this hack working with the unbelievable minds
   participating in [Young Rewired State NYC](http://youngrewiredstate.org).
 
 ## Resources
